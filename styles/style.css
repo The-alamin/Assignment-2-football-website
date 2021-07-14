@@ -63,7 +63,7 @@ p {
   transition: transform 2s ease-in-out;
 }
 .banner-img:hover img {
-  transform: rotate(30deg);
+  transform: scale(1.2);
 }
 
 /* image section  */
@@ -130,7 +130,7 @@ p {
 }
 /* official sponser */
 .sponser-area {
-  padding: 60px 0 60px 0;
+  padding: 60px 0 30px 0;
   background-color: rgba(10, 10, 185, 0.849);
 }
 .sponser-title {
@@ -166,7 +166,15 @@ p {
   font-size: 1.7rem;
   margin: 10px;
 }
-
+/* contact us */
+.contact-area {
+  padding: 30px 0 60px 0;
+  background-color: rgba(10, 10, 185, 0.849);
+}
+.contact-title {
+  font-size: 2.5rem;
+  color: white;
+}
 /*---------------------
     footer part 
 -------------------*/
