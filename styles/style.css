@@ -19,7 +19,7 @@ p {
 }
 
 /*---------------------
-  navigation part 
+  Main Banner part
 --------------------*/
 .banner {
   background-color: rgba(10, 10, 185, 0.849);
@@ -63,7 +63,7 @@ p {
   transition: transform 2s ease-in-out;
 }
 .banner-img:hover img {
-  transform: scale(1.2);
+  transform: rotate(30deg);
 }
 
 /* image section  */
@@ -119,4 +119,100 @@ footer {
   color: rgb(116, 107, 107);
   background-color: rgb(219, 218, 218);
   border-radius: 50%;
+}
+/*-------------
+   media query
+--------------*/
+
+/* mobile device */
+@media only screen and (max-width: 688px) {
+  body {
+    overflow-x: hidden;
+  }
+  .banner-title:hover {
+    transform: scale(0.8);
+  }
+  .banner-title h1 {
+    font-size: 2rem;
+    padding: 10px 250px 0 0;
+  }
+  .match-img {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .match-img img {
+    width: 330px;
+    height: 274px;
+  }
+  .footer-img img {
+    width: 300px;
+  }
+  .container,
+  .banner {
+    width: 100%;
+  }
+  .banner,
+  .players,
+  .highlights,
+  .players-rating {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .company-name a {
+    padding: 5px 10px;
+  }
+  #tcl {
+    font-size: 1rem;
+    margin: 5px;
+  }
+  #kwai {
+    font-size: 1rem;
+    margin: 5px;
+  }
+  #betson {
+    font-size: 1rem;
+    margin: 5px;
+  }
+  #sinovac {
+    font-size: 1rem;
+    margin: 5px;
+  }
+}
+
+/* tab  */
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  .banner-title {
+    padding-left: 20px;
+  }
+  .banner-title:hover {
+    transform: scale(0.8);
+  }
+  .banner-title h1 {
+    font-size: 1.7rem;
+  }
+  .banner-img img {
+    margin-left: 120px;
+  }
+  .container,
+  .banner {
+    width: 100%;
+  }
+  .highlights {
+    margin: 60px 20px;
+  }
+  .match-img img {
+    width: 330px;
+    height: 274px;
+  }
+  .banner,
+  .players,
+  .highlights,
+  .players-rating {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner-title {
+    font-size: 1rem;
+  }
 }
