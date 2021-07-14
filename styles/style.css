@@ -130,10 +130,12 @@ p {
 }
 /* official sponser */
 .sponser-area {
-  margin: 60px 0 60px 0;
+  padding: 60px 0 60px 0;
+  background-color: rgba(10, 10, 185, 0.849);
 }
 .sponser-title {
   font-size: 2.5rem;
+  color: white;
 }
 .company-name {
   margin-top: 40px;
@@ -153,7 +155,7 @@ p {
 #nokia {
   border: 1px solid gray;
   border-radius: 30px;
-  color: orangered;
+  color: white;
   font-size: 1.7rem;
   margin: 10px;
 }
@@ -164,17 +166,7 @@ p {
   font-size: 1.7rem;
   margin: 10px;
 }
-#ivac {
-  border: 1px solid gray;
-  border-radius: 30px;
-  color: black;
-  font-size: 1.7rem;
-  margin: 10px;
-  font-weight: 700;
-}
-span {
-  color: brown;
-}
+
 /*---------------------
     footer part 
 -------------------*/
