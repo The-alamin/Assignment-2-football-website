@@ -99,6 +99,35 @@ p {
 .player p {
   margin: 5px;
 }
+/* highlights */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 80px;
+  margin: 80px 0 80px 0;
+}
+.highlights-title h1 {
+  color: #562eff;
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.description {
+  width: 329px;
+  height: 299px;
+  margin-top: 50px;
+}
+.btn a {
+  background-color: rgb(250, 32, 141);
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.match-img img {
+  height: 356px;
+  width: 500px;
+}
 /*---------------------
     footer part 
 -------------------*/
