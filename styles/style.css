@@ -1,67 +1,101 @@
 /* ------------------
  Font popin -------*/
- 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
 
 /*---------------
    common style 
    ----------*/
 
-body{
+body {
   margin: 0;
 }
-h3{
-  font-family: 'Poppins', sans-serif;
+h3 {
+  font-family: "Poppins", sans-serif;
 }
-p{
-  font-family: 'Poppins', sans-serif;
+p {
+  font-family: "Poppins", sans-serif;
   color: gray;
 }
 
 /*---------------------
   navigation part 
 --------------------*/
-.banner{
+.banner {
   background-color: rgba(10, 10, 185, 0.849);
   display: grid;
-  grid-template-columns: repeat(2,1fr);  
+  grid-template-columns: repeat(2, 1fr);
   place-items: center;
   overflow: hidden;
 }
-.banner-title{
+.banner-title {
   color: white;
-   margin-left: 10px;
-   transition: transform 2s ease-in-out;
+  margin-left: 10px;
+  transition: transform 2s ease-in-out;
 }
-.banner-title:hover{
+.banner-title:hover {
   transform: scale(1.2);
 }
-.banner-title h1{
+.banner-title h1 {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   font-size: 3rem;
 }
-.banner-btn{
+.banner-btn {
   margin-top: 38px;
 }
-.banner-title a{
-  background-color:rgb(250, 32, 141);
+.banner-title a {
+  background-color: rgb(250, 32, 141);
   text-decoration: none;
   color: white;
   padding: 5px 15px;
   border-radius: 10px;
 }
-.banner-img{
+.banner-img {
   width: 556px;
   height: 438px;
   margin-top: 67px;
-  
 }
-.banner-img img{
+.banner-img img {
   height: 338px;
   width: 400px;
   transition: transform 2s ease-in-out;
 }
-.banner-img:hover img{
+.banner-img:hover img {
   transform: rotate(30deg);
+}
+
+/* image section  */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 27px 30px;
+  margin: 70px 0 20px 0;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  box-shadow: 3px 3px 8px gray;
+  border-radius: 10px;
+}
+.player-img img {
+  height: 256px;
+  width: 300px;
+  padding: 15px;
+}
+.player-desc {
+  padding-left: 15px;
+}
+.player h3 {
+  margin: 0;
+}
+.player p {
+  margin: 5px;
+}
