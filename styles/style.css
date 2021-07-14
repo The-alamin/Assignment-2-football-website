@@ -63,7 +63,7 @@ p {
   transition: transform 2s ease-in-out;
 }
 .banner-img:hover img {
-  transform: rotate(30deg);
+  transform: scale(1.2);
 }
 
 /* image section  */
